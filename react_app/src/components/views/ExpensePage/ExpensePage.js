@@ -19,14 +19,12 @@ import ko from "date-fns/locale/ko"
 
 import moment from 'moment'
 
-import FixedSizeGrid from '../FixedSizeGrid/FixedSizeGrid';
-
 import SaveIcon from '@material-ui/icons/Save';
 import DeleteIcon from '@material-ui/icons/Delete';
 import PostAddIcon from '@material-ui/icons/PostAdd';
 import GridOnIcon from '@material-ui/icons/GridOn';
 
-import { createMuiTheme, withStyles, makeStyles, ThemeProvider } from '@material-ui/core/styles';
+import { makeStyles } from '@material-ui/core/styles';
 
 import companyInfo from '../CompanyPage/Data/company'
 import ExpenseDataGrid from './Data-grid/ExpenseDataGrid'
